@@ -40,7 +40,7 @@ public class Arreylist1 {
 		Thread.sleep(3000);
 		driver.findElement(By.name("userType"));
 		Thread.sleep(3000);
-		driver.findElement(By.name("fname")).sendKeys("shankar");
+		/*driver.findElement(By.name("fname")).sendKeys("shankar");
 		Thread.sleep(3000);
 		driver.findElement(By.name("email")).sendKeys("shankar441007");
 		Thread.sleep(3000);
@@ -51,7 +51,7 @@ public class Arreylist1 {
 		Select city=new Select(driver.findElement(By.id("city")));
 		Thread.sleep(3000);
 		city.selectByVisibleText("Chennai");
-		Thread.sleep(3000);
+		Thread.sleep(3000);*/
 		driver.close();
 		
 
